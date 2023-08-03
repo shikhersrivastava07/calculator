@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.reactcalc{
+  padding:20px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:0;
+  border-radius: 20px;
+  color:antiquewhite;
+  transition:0.5s;
+  background-color:cornflowerblue
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.reactcalc2{
+  padding:20px;
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:0;
+  border-radius: 20px;
+  color:white;
+  background-color: rgb(41, 199, 41);
+  transition:0.5s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonbackground{
+  background-color:#28282B;
   display: flex;
-  flex-direction: column;
+}
+.text{
+  margin:0;
+  padding:20px;
+  color:rgb(193, 188, 188);
+  
+}
+
+
+.container{
+  width:100%;
+  height:89.1vh;
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:#28282B;
+}
+.calculator{
+  padding:20px;
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 0, 0.408);
+}
+form input{
+  border:none;
+  width:60px;
+  height:60px;
+  font-size:16px;
+  background-color:rgba(155, 162, 255, 0.201);
+  margin:2px;
+  border-radius: 2px;
+  color:white;
+  font-weight: bolder;
+  cursor:pointer;
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+form input[type="button"]:hover{
+  background-color:rgba(255, 172, 89, 0.404);
 }
+.display{
+  display:flex;
+  justify-content: flex-end;
+  
+  margin:5px 0px 10px 0px;
+}
+.display input{
+  border: 0.5px solid rgb(99, 99, 99);
+  text-align: right;
+  flex:1;
+  font-size: 40px;
+  padding:5px 10px;
+  background-color: rgba(55, 55, 55, 0.322);
+}
+.bottom{
+  display:flex;
+}
+.equal{
+  flex:1;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
