@@ -9,7 +9,8 @@
   border-radius: 20px;
   color:antiquewhite;
   transition:0.5s;
-  background-color:cornflowerblue
+  background-color:cornflowerblue;
+  cursor:pointer;
 }
 .reactcalc2{
   padding:20px;
@@ -23,6 +24,7 @@
   color:white;
   background-color: rgb(41, 199, 41);
   transition:0.5s;
+  cursor:pointer;
 }
 .buttonbackground{
   background-color:#28282B;
